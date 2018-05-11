@@ -1,8 +1,0 @@
-2018-05-07 08:58:32 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "DESC[*] AUTHOR "; ожидалось "DELETE, DROP, DECLARE, DEALLOCATE, {"
-Syntax error in SQL statement "DESC[*] AUTHOR "; expected "DELETE, DROP, DECLARE, DEALLOCATE, {"; SQL statement:
-desc author [42001-196]
-2018-05-07 08:59:38 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "SHOW SCHEMAS  PUBLIC[*] "
-Syntax error in SQL statement "SHOW SCHEMAS  PUBLIC[*] "; SQL statement:
-show SCHEMAS  public [42000-196]
