@@ -15,4 +15,11 @@ public class Book {
     private String bookTitle;
     private List<Author> authors;
     private String publisherName;
+
+    public Book(Long id, Long categoryId, String bookTitle, String publisherName) {
+        this.id = id;
+        this.categoryId = categoryId;
+        this.bookTitle = bookTitle;
+        this.publisherName = publisherName;
+    }
 }
